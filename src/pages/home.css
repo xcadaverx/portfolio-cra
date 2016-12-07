@@ -1,0 +1,31 @@
+.vh10 {
+  height: 10vh;
+}
+
+.vh60 {
+  height: 60vh;
+}
+
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.bg-console {
+  background-color: #323842;
+}
+
+.mw24r {
+  max-width: 24rem;
+}
+
+.mh100 {
+  max-height: 100%;
+}

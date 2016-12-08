@@ -13,7 +13,7 @@ import BAP from './pages/bap'
 import './index.css'
 
 ReactDOM.render(
-  <Router history={hashHistory}>
+  <Router onUpdate={() => window.scrollTo(0, 0)} history={hashHistory}>
     <Route path="/" component={Home}/>
     <Route path="/self" component={Self}/>
     <Route path="/work" component={Work}/>

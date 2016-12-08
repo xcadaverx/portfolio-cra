@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 class Header extends Component {
   render() {
     return (
-      <div className="fixed bg-white w-100">
+      <div className="absolute bg-white w-100">
           <nav className={`dt w-100 border-box pa3 ph4-ns pv3-ns pv3 vh10`}>
             <Link to="/" className="dtc v-mid black fw6 f4 tracked-tight link dim" title="Home">
                 Daniel Williams

@@ -36,8 +36,8 @@ class BAP extends Component {
 						</div>
 					</div>
 
-          <div className="fl w-50-ns w-100 pa4 bl-ns bw1 b--black h-100-ns h-50 flex-ns items-center-ns">
-            <div className={"mw24r ml3-ns mb0-ns mb6"}>
+          <div className="fl w-50-ns w-100 pa4 bl-ns bw1 b--black h-100 flex-ns items-center-ns">
+            <div className={"mw24r ml3-ns"}>
               <Gallery images={DEFAULT_IMAGES.map(({ caption, url, tn, orientation, useForDemo }) => ({
                   src: url,
                   thumbnail: tn,

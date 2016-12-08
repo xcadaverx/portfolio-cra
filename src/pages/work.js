@@ -13,26 +13,28 @@ class Work extends Component {
       <div className="avenir">
           <Header />
           <div className='vh-100 w-100 flex items-center justify-center'>
-            <div className={"vh60 mw6"}>
-              <div className="fl w-100 w-50-ns pa3">
-                <Link to="/stockboard">
-                  <img className="w-100 db center dim" src={SBPhoto}/>
-                </Link>
-              </div>
-              <div className="fl w-100 w-50-ns pa3">
-                <Link to="/bap">
-                  <img className="w-100 db center dim" src={BAPPhoto}/>
-                </Link>
-              </div>
-              <div className="fl w-100 w-50-ns pa3">
-                <Link to="/ydl">
-                  <img className="w-100 db center dim" src={YDLPhoto}/>
-                </Link>
-              </div>
-              <div className="fl w-100 w-50-ns pa3">
-                <Link to="/showstubs">
-                  <img className="w-100 db center dim" src={SSPhoto}/>
-                </Link>
+            <div className={"vh60 mw6 flex-ns items-center-ns"}>
+              <div className="fl w-100 flex-none-ns">
+                <div className="fl w-100 w-50-ns pa3">
+                  <Link to="/stockboard">
+                    <img className="w-100 db center dim" src={SBPhoto}/>
+                  </Link>
+                </div>
+                <div className="fl w-100 w-50-ns pa3">
+                  <Link to="/bap">
+                    <img className="w-100 db center dim" src={BAPPhoto}/>
+                  </Link>
+                </div>
+                <div className="fl w-100 w-50-ns pa3">
+                  <Link to="/ydl">
+                    <img className="w-100 db center dim" src={YDLPhoto}/>
+                  </Link>
+                </div>
+                <div className="fl w-100 w-50-ns pa3">
+                  <Link to="/showstubs">
+                    <img className="w-100 db center dim" src={SSPhoto}/>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

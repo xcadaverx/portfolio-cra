@@ -10,8 +10,9 @@ class Header extends Component {
                 Daniel Williams
             </Link>
             <div className="dtc v-mid w-75 tr">
-              <Link to="/self" className="link black-40 tracked underline-hover hover-black f6 f6-ns dib mr3 mr5-ns" title="Self">Self</Link>
-              <Link to="/work" className="link black-40 tracked underline-hover hover-black f6 f6-ns dib mr3 mr5-ns" title="Work">Work</Link>
+              <Link to="/self" className="link black-40 tracked underline-hover hover-black f6 f6-ns dib mr3 mr4-ns" title="Self">Self</Link>
+              <Link to="/work" className="link black-40 tracked underline-hover hover-black f6 f6-ns dib mr3 mr4-ns" title="Work">Work</Link>
+              <a href="http://www.medium.com/@xcadaverx" className="link black-40 tracked underline-hover hover-black f6 f6-ns dib mr3 mr4-ns" title="Blog">Blog</a>
               <a href="mailto:xcadaverx@gmail.com" className="link black-40 tracked underline-hover hover-black f6 f6-ns dib" title="Contact">Contact</a>
             </div>
           </nav>

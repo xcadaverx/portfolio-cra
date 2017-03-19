@@ -6,7 +6,7 @@ import './home.css';
 
 const firstLine = `do {`
 const secondLine = `try everything()`
-const thirdLine = `} catch { _ in`
+const thirdLine = `} catch {`
 const fourthLine = `print(“There is only try, and try harder.”)`
 const fifthLine = `}`
 
